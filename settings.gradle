@@ -1,0 +1,3 @@
+rootProject.name = "RETO_DE_AUTOMATIZACION_TATA"
+include("src:test:features")
+findProject(":src:test:features")?.name = "features"
